@@ -177,12 +177,24 @@
     padding-left: 0;
 }
 
-.machines-network-state {
-    display: flex;
-    float: right;
+.machines-network-source-link {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #00659c;
 }
 
-.machines-network-state span {
-    align-self: center;
-    padding-bottom: 2px;
+.machines-network-state {
+    width: 25px;
+    display: inline-block;
+}
+
+.machines-network-state-button {
+    width: 75px;
+    display: inline-block;
+}
+
+.machines-network-list {
+    max-height: 500px;
+    overflow: auto;
+    padding-bottom: 15px;
 }
